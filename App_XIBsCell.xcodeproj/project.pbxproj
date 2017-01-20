@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		09061CD01E3294AA00A0895C /* fondo.png in Resources */ = {isa = PBXBuildFile; fileRef = 09061CCE1E3294AA00A0895C /* fondo.png */; };
+		09061CD11E3294AA00A0895C /* nikename.png in Resources */ = {isa = PBXBuildFile; fileRef = 09061CCF1E3294AA00A0895C /* nikename.png */; };
+		09061CD51E32972B00A0895C /* CICeldaTipoUnoCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09061CD31E32972B00A0895C /* CICeldaTipoUnoCustomCell.swift */; };
+		09061CD61E32972B00A0895C /* CICeldaTipoUnoCustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09061CD41E32972B00A0895C /* CICeldaTipoUnoCustomCell.xib */; };
+		09061CD91E329DD600A0895C /* gmb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 09061CD81E329DD600A0895C /* gmb.jpg */; };
+		09061CDC1E32A91600A0895C /* CICeldaTipoDosTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09061CDA1E32A91600A0895C /* CICeldaTipoDosTableViewCell.swift */; };
+		09061CDD1E32A91600A0895C /* CICeldaTipoDosTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09061CDB1E32A91600A0895C /* CICeldaTipoDosTableViewCell.xib */; };
 		095175DA1E328A9100CF8E9D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095175D91E328A9100CF8E9D /* AppDelegate.swift */; };
 		095175DF1E328A9100CF8E9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 095175DD1E328A9100CF8E9D /* Main.storyboard */; };
 		095175E11E328A9100CF8E9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 095175E01E328A9100CF8E9D /* Assets.xcassets */; };
@@ -17,6 +24,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		09061CCE1E3294AA00A0895C /* fondo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fondo.png; sourceTree = "<group>"; };
+		09061CCF1E3294AA00A0895C /* nikename.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nikename.png; sourceTree = "<group>"; };
+		09061CD31E32972B00A0895C /* CICeldaTipoUnoCustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CICeldaTipoUnoCustomCell.swift; sourceTree = "<group>"; };
+		09061CD41E32972B00A0895C /* CICeldaTipoUnoCustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CICeldaTipoUnoCustomCell.xib; sourceTree = "<group>"; };
+		09061CD81E329DD600A0895C /* gmb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gmb.jpg; sourceTree = "<group>"; };
+		09061CDA1E32A91600A0895C /* CICeldaTipoDosTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CICeldaTipoDosTableViewCell.swift; sourceTree = "<group>"; };
+		09061CDB1E32A91600A0895C /* CICeldaTipoDosTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CICeldaTipoDosTableViewCell.xib; sourceTree = "<group>"; };
 		095175D61E328A9100CF8E9D /* App_XIBsCell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = App_XIBsCell.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		095175D91E328A9100CF8E9D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		095175DE1E328A9100CF8E9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -39,6 +53,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		09061CD21E3294B000A0895C /* IMAGES */ = {
+			isa = PBXGroup;
+			children = (
+				09061CD81E329DD600A0895C /* gmb.jpg */,
+				09061CCE1E3294AA00A0895C /* fondo.png */,
+				09061CCF1E3294AA00A0895C /* nikename.png */,
+			);
+			name = IMAGES;
+			sourceTree = "<group>";
+		};
+		09061CD71E32974400A0895C /* XIB_TIPO_UNO */ = {
+			isa = PBXGroup;
+			children = (
+				09061CD31E32972B00A0895C /* CICeldaTipoUnoCustomCell.swift */,
+				09061CD41E32972B00A0895C /* CICeldaTipoUnoCustomCell.xib */,
+			);
+			name = XIB_TIPO_UNO;
+			sourceTree = "<group>";
+		};
+		09061CDE1E32A91A00A0895C /* XIB_TIPO_DOS */ = {
+			isa = PBXGroup;
+			children = (
+				09061CDA1E32A91600A0895C /* CICeldaTipoDosTableViewCell.swift */,
+				09061CDB1E32A91600A0895C /* CICeldaTipoDosTableViewCell.xib */,
+			);
+			name = XIB_TIPO_DOS;
+			sourceTree = "<group>";
+		};
 		095175CD1E328A9100CF8E9D = {
 			isa = PBXGroup;
 			children = (
@@ -64,6 +106,7 @@
 				095175E01E328A9100CF8E9D /* Assets.xcassets */,
 				095175E21E328A9100CF8E9D /* LaunchScreen.storyboard */,
 				095175E51E328A9100CF8E9D /* Info.plist */,
+				09061CD21E3294B000A0895C /* IMAGES */,
 			);
 			path = App_XIBsCell;
 			sourceTree = "<group>";
@@ -72,6 +115,8 @@
 			isa = PBXGroup;
 			children = (
 				095175EB1E328B1600CF8E9D /* CIPerfilTableViewController.swift */,
+				09061CDE1E32A91A00A0895C /* XIB_TIPO_DOS */,
+				09061CD71E32974400A0895C /* XIB_TIPO_UNO */,
 				095175F21E328BA900CF8E9D /* XIB_PERFIL */,
 			);
 			name = VIEWS_CONTROLLER;
@@ -146,9 +191,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				095175E41E328A9100CF8E9D /* LaunchScreen.storyboard in Resources */,
+				09061CD11E3294AA00A0895C /* nikename.png in Resources */,
+				09061CD61E32972B00A0895C /* CICeldaTipoUnoCustomCell.xib in Resources */,
+				09061CDD1E32A91600A0895C /* CICeldaTipoDosTableViewCell.xib in Resources */,
 				095175F01E328B5600CF8E9D /* CIPercilCustomCell.xib in Resources */,
+				09061CD91E329DD600A0895C /* gmb.jpg in Resources */,
 				095175E11E328A9100CF8E9D /* Assets.xcassets in Resources */,
 				095175DF1E328A9100CF8E9D /* Main.storyboard in Resources */,
+				09061CD01E3294AA00A0895C /* fondo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -161,7 +211,9 @@
 			files = (
 				095175DA1E328A9100CF8E9D /* AppDelegate.swift in Sources */,
 				095175EF1E328B5600CF8E9D /* CIPercilCustomCell.swift in Sources */,
+				09061CDC1E32A91600A0895C /* CICeldaTipoDosTableViewCell.swift in Sources */,
 				095175EC1E328B1600CF8E9D /* CIPerfilTableViewController.swift in Sources */,
+				09061CD51E32972B00A0895C /* CICeldaTipoUnoCustomCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,6 +373,7 @@
 				095175EA1E328A9100CF8E9D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
